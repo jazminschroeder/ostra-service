@@ -1,1 +1,16 @@
-Check out http://shopify.github.com/dashing for more information.
+# Endpoints
+``` ruby
+/heartbeat
+```
+
+# Run
+
+```ruby
+$ rackup
+```
+
+#Tests
+
+```ruby
+$ rspec
+```
