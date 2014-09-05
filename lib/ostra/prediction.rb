@@ -1,7 +1,7 @@
 module Ostra
   class Prediction
-    def predict
-      'do something'
+    def predict(text)
+      text
     end
   end
 end

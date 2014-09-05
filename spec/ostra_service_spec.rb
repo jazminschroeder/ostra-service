@@ -18,4 +18,10 @@ describe 'Ostra Service' do
     expect(last_response.status).to eq 200
     expect(last_response.body).to eq json({status: "OK", timestamp: 'now'})
   end
+
+  context "/predict" do
+    it "calls classifier" do
+
+    end
+  end
 end
